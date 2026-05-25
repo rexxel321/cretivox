@@ -22,7 +22,7 @@ export default function LoginModal({ onClose, onSuccess }: LoginModalProps) {
     setLoading(true)
 
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_CRETIVOX_API_URL || 'https://api.cretivox.dev/auth/login'
+      const apiUrl = '/api/auth/login'
       console.log('📡 Sending login request to:', apiUrl)
 
       const response = await fetch(apiUrl, {
