@@ -19,11 +19,11 @@ const EXPERIENCES = [
   {
     num: '02',
     year: '2025',
-    role: 'Mobile Developer Intern',
+    role: 'Software Engineer Intern',
     company: 'DISKOMINFOSANTIK',
     location: 'Government Agency',
-    desc: 'Built cross-platform mobile applications using Flutter & React Native. Collaborated with design and backend teams to deliver scalable solutions.',
-    tags: ['Flutter', 'React Native', 'Mobile Dev'],
+    desc: 'Developed a Content Management System (CMS) and performed sentiment analysis using social media data crawling.',
+    tags: ['Django', 'Python', 'Data Crawling'],
   },
   {
     num: '03',
