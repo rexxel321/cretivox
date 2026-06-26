@@ -43,6 +43,15 @@ const EXPERIENCES = [
     desc: 'Developing website for PUSB using React and Tailwind CSS for frontend and Golang for backend.',
     tags: ['React', 'Tailwind CSS', 'Golang'],
   },
+  {
+    num: '05',
+    year: 'June 2026 — Present',
+    role: 'IT Intern, Warehouse Division',
+    company: 'PT Omron Manufacturing Indonesia',
+    location: 'Manufacturing Company',
+    desc: 'Digitizing the warehouse rack storage system and maintaining existing warehouse systems to support smoother warehouse operations.',
+    tags: ['Warehouse System', 'Digitalization', 'IT Support'],
+  },
 ]
 
 export default function Experience() {
