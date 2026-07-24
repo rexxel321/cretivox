@@ -196,7 +196,7 @@ export default function Projects() {
     <section ref={sectionRef} className="projects" id="projects">
       {/* Section Header */}
       <div className="proj-header">
-        <span className="proj-label section-label">005 — Projects</span>
+        <span className="proj-label section-label">006 — Projects</span>
         <h2 className="proj-heading">
           <span>Selected</span>
           <span>Work.</span>

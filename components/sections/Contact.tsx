@@ -112,12 +112,6 @@ export default function Contact() {
 
       <footer className="footer" style={{ marginTop: '5rem', borderTop: '1px solid var(--border-subtle)', paddingTop: '2rem', paddingBottom: '2rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
         <p className="footer-text">&copy; 2026 Muhammad Dhiya Ulhaq &mdash; All rights reserved.</p>
-        <p className="footer-text">Built for Cretivox Internship</p>
-        <img
-          src="/photos/Logo Cretivox - Black.png"
-          alt="Cretivox Logo"
-          style={{ height: '24px', objectFit: 'contain', marginTop: '0.5rem', filter: 'invert(1) opacity(0.8)' }}
-        />
       </footer>
     </section>
   )

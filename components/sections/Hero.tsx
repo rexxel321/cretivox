@@ -128,6 +128,14 @@ export default function Hero() {
           <a href="#skills" className="btn-primary" id="hero-cta-work">
             View Work
           </a>
+          <a
+            href="/CV_M_DHIYA_ULHAQ.pdf"
+            className="btn-secondary"
+            id="hero-cta-download-cv"
+            download
+          >
+            Download CV ↓
+          </a>
           <a href="#contact" className="btn-secondary" id="hero-cta-contact">
             Get in Touch →
           </a>
