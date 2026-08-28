@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useRef } from 'react'
 import { gsap } from 'gsap'
 import LoginModal from '@/components/ui/LoginModal'
 
@@ -10,22 +10,16 @@ interface SecretProjectsState {
 }
 
 export default function SecretProjects() {
-  const [state, setState] = useState<SecretProjectsState>({
-    isUnlocked: false,
-    showModal: false,
+  const [state, setState] = useState<SecretProjectsState>(() => {
+    if (typeof window !== 'undefined' && localStorage.getItem('cretivox_token')) {
+      return { isUnlocked: true, showModal: false }
+    }
+    return { isUnlocked: false, showModal: false }
   })
   const sectionRef = useRef<HTMLElement>(null)
   const lockRef = useRef<HTMLDivElement>(null)
   const contentRef = useRef<HTMLDivElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
-
-  // Check if already unlocked on mount
-  useEffect(() => {
-    const token = localStorage.getItem('cretivox_token')
-    if (token) {
-      setState(prev => ({ ...prev, isUnlocked: true }))
-    }
-  }, [])
 
   // Lock click handler
   const handleLockClick = () => {

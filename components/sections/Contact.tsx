@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const SOCIALS = [
-  { name: 'GitHub', url: 'https://github.com/rexxel321', label: 'github.com/rexxel321' },
+  { name: 'GitHub', url: 'https://github.com/muhammaddhiya', label: 'github.com/muhammaddhiya' },
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/muhammaddhiyaulhaq---', label: 'linkedin.com/in/muhammaddhiyaulhaq' },
   { name: 'Instagram', url: 'https://www.instagram.com/muhammaddhiya._/', label: '@muhammaddhiya._' },
 ]
