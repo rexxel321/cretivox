@@ -130,10 +130,10 @@ export default function About() {
               </h2>
               <div className="about-divider" />
               <p className="about-bio">
-                I&apos;m an Informatics major at President University with a deep
-                interest in Artificial Intelligence and Developer tooling. Currently
-                leading the Web Development team within the campus Student
-                Executive Board.
+                I&apos;m an Informatics student at President University specializing in Software Engineering and Artificial Intelligence. I have hands-on experience in web development, 
+                backend systems, and AI-based applications through academic, organizational, and professional projects. Currently working as an IT Intern while leading the Web Development 
+                team within the university's Student Executive Board.
+
               </p>
             </div>
             <div ref={photoLeftRef} className="about-photo">
